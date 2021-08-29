@@ -1,0 +1,28 @@
+admin库system.version表里的所有数据为:
+	{'_id': 'featureCompatibilityVersion', 'version': '5.0'}
+
+cms_data库user_info表里的所有数据为:
+	{'_id': ObjectId('612b7e00cc4131dd33e44069'), 'name': 'peter', 'age': 18, 'phone': '15984762354'}
+	{'_id': ObjectId('612b7e05cc4131dd33e4406a'), 'name': 'hadis', 'age': 20, 'addr': 'hangzhou'}
+	{'_id': ObjectId('612b7e07cc4131dd33e4406b'), 'name': 'hadis', 'age': 20, 'addr': 'hangzhou'}
+	{'_id': ObjectId('612b7e0bcc4131dd33e4406c'), 'name': 'david', 'age': 33, 'mail': '44@qq.com'}
+	{'_id': ObjectId('612b7e0ccc4131dd33e4406d'), 'name': 'david', 'age': 33, 'mail': '44@qq.com'}
+	{'_id': ObjectId('612bbfa9cc4131dd33e4406e'), 'name': 'admin', 'age': 33, 'mail': '44@qq.com'}
+
+cms_data库news表里的所有数据为:
+
+config库system.sessions表里的所有数据为:
+	{'_id': {'id': UUID('98d90a22-10a6-47e9-b3fb-b259f37da55a'), 'uid': b"\xe3\xb0\xc4B\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99o\xb9$'\xaeA\xe4d\x9b\x93L\xa4\x95\x99\x1bxR\xb8U"}, 'lastUse': datetime.datetime(2021, 8, 29, 17, 13, 34, 633000)}
+	{'_id': {'id': UUID('d6a5850f-1755-4352-8b41-abb6b4fc4f80'), 'uid': b"\xe3\xb0\xc4B\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99o\xb9$'\xaeA\xe4d\x9b\x93L\xa4\x95\x99\x1bxR\xb8U"}, 'lastUse': datetime.datetime(2021, 8, 29, 17, 13, 34, 633000)}
+	{'_id': {'id': UUID('26309d37-eddf-44d5-9703-28d7cefd5989'), 'uid': b"\xe3\xb0\xc4B\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99o\xb9$'\xaeA\xe4d\x9b\x93L\xa4\x95\x99\x1bxR\xb8U"}, 'lastUse': datetime.datetime(2021, 8, 29, 17, 18, 34, 635000)}
+	{'_id': {'id': UUID('f81c5c60-c556-47b6-ae89-4e6449b6f053'), 'uid': b"\xe3\xb0\xc4B\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99o\xb9$'\xaeA\xe4d\x9b\x93L\xa4\x95\x99\x1bxR\xb8U"}, 'lastUse': datetime.datetime(2021, 8, 29, 17, 18, 34, 635000)}
+	{'_id': {'id': UUID('1ff4dbf2-063e-407e-9a16-8c0d8f0a0472'), 'uid': b"\xe3\xb0\xc4B\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99o\xb9$'\xaeA\xe4d\x9b\x93L\xa4\x95\x99\x1bxR\xb8U"}, 'lastUse': datetime.datetime(2021, 8, 29, 17, 23, 34, 635000)}
+
+local库startup_log表里的所有数据为:
+	{'_id': 'e93f7684eb75-1630231414483', 'hostname': 'e93f7684eb75', 'startTime': datetime.datetime(2021, 8, 29, 10, 3, 34), 'startTimeLocal': 'Sun Aug 29 10:03:34.483', 'cmdLine': {'net': {'bindIp': '*'}}, 'pid': 1, 'buildinfo': {'version': '5.0.2', 'gitVersion': '6d9ec525e78465dcecadcff99cce953d380fedc8', 'modules': [], 'allocator': 'tcmalloc', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [5, 0, 2, 0], 'openssl': {'running': 'OpenSSL 1.1.1f  31 Mar 2020', 'compiled': 'OpenSSL 1.1.1f  31 Mar 2020'}, 'buildEnvironment': {'distmod': 'ubuntu2004', 'distarch': 'x86_64', 'cc': '/opt/mongodbtoolchain/v3/bin/gcc: gcc (GCC) 8.5.0', 'ccflags': '-Werror -include mongo/platform/basic.h -fasynchronous-unwind-tables -ggdb -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -fno-omit-frame-pointer -fno-strict-aliasing -O2 -march=sandybridge -mtune=generic -mprefer-vector-width=128 -Wno-unused-local-typedefs -Wno-unused-function -Wno-deprecated-declarations -Wno-unused-const-variable -Wno-unused-but-set-variable -Wno-missing-braces -fstack-protector-strong -Wa,--nocompress-debug-sections -fno-builtin-memcmp', 'cxx': '/opt/mongodbtoolchain/v3/bin/g++: g++ (GCC) 8.5.0', 'cxxflags': '-Woverloaded-virtual -Wno-maybe-uninitialized -fsized-deallocation -std=c++17', 'linkflags': '-Wl,--fatal-warnings -pthread -Wl,-z,now -fuse-ld=gold -fstack-protector-strong -Wl,--no-threads -Wl,--build-id -Wl,--hash-style=gnu -Wl,-z,noexecstack -Wl,--warn-execstack -Wl,-z,relro -Wl,--compress-debug-sections=none -Wl,-z,origin -Wl,--enable-new-dtags', 'target_arch': 'x86_64', 'target_os': 'linux', 'cppdefines': 'SAFEINT_USE_INTRINSICS 0 PCRE_STATIC NDEBUG _XOPEN_SOURCE 700 _GNU_SOURCE _FORTIFY_SOURCE 2 BOOST_THREAD_VERSION 5 BOOST_THREAD_USES_DATETIME BOOST_SYSTEM_NO_DEPRECATED BOOST_MATH_NO_LONG_DOUBLE_MATH_FUNCTIONS BOOST_ENABLE_ASSERT_DEBUG_HANDLER BOOST_LOG_NO_SHORTHAND_NAMES BOOST_LOG_USE_NATIVE_SYSLOG BOOST_LOG_WITHOUT_THREAD_ATTR ABSL_FORCE_ALIGNED_ACCESS'}, 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'ephemeralForTest', 'wiredTiger']}}
+
+mydata库user_list表里的所有数据为:
+	{'_id': ObjectId('612b7a6d996a000044005455'), 'name': 'lulu', 'age': '22', 'sex': 'male'}
+	{'_id': ObjectId('612b7a87996a000044005456'), 'name': 'peter', 'phone': '15987546352'}
+	{'_id': ObjectId('612b7a92996a000044005457'), 'name': 'summer', 'password': '123456'}
+
