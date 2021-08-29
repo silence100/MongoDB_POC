@@ -22,6 +22,8 @@
 
 ## 获取admin示例
 
+`pocsuite -r mongodb_poc.py -u 192.168.1.38 --attack`
+
 ![img_1.png](img_1.png)
 
 ---
